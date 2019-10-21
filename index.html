@@ -2,36 +2,191 @@
 layout: default
 title: Home
 ---
+<!DOCTYPE html>
+<html>
+<body class="body-class">
+<div class="introduction">
+<h1>Hello,</h1>
+<h2 class="sub-header">I'm Dinesh Singh. A full-stack developer who loves to Code and Play music.</h2>
+<p><b>
+    If you can't explain it simple, then you didn't understand it well enough - Albert Einstein
+</b></p>
+<p>
+    I am currently a full stack developer working for Cerner Corporation at Kansas City, MO. In the past few years, I have greatly enhanced my programming skills by taking up the course on Data Analytics, React Native and also contributing to open source libraries. My Other interests involve playing Guitar and PS Games.
+</p>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<p>
+    As a full stack developer at Cerner Corporation, I have been developing both mobile and desktop versions of the applications which are widely used across the world by Nurses, to administer and prepare medications for the patients. The past 2 years have given me the ability to write a clean and understandable code. Currently, I'm consider myself as a Professional Developer in React JS, D3 JS and Java. However, my favourite language hands down in Python.
+</p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<p>
+    Apart from my technical skills, I believe I am a team player and always encourage a friendly environment in the team. I am currently a mentor to a new associate who joined the team and help him understand the workflows and other technical aspects. During my masters and bachelors,  I led a team of developers at my University to implement projects related to Image Processing.
+</p>
 
-    {{ post.content }}
+<p>
+    <b>Short-term goal:</b> I am looking for a challenging full time opportunities which allow me to apply my experience and provide an environment for me to learn; I have a diverse profile and I love to pick up new technologies.
+</p>
+
+<p>
+    <b>Long-term goal:</b> I see myself making the technologies more open source and licence free. I strongly believe technology should not cost money and should be accessible to everyone at free of cost.
+</p>
+
+<!-- Skill section begin -->
+<section class="resume-section" id="skill-section"><h1><div>My Skills</div></h1></section>
+
+<div class="skill-container">
+  <div class="skills language-React"><div class="skills-text">React JS</div></div>
+</div>
+
+
+<div class="skill-container">
+  <div class="skills language-Java"><div class="skills-text">Java</div></div>
+</div>
+
+<div class="skill-container">
+  <div class="skills language-python"><div class="skills-text">Python</div></div>
+</div>
+
+
+<div class="skill-container">
+  <div class="skills language-javascript"><div class="skills-text">D3 JS</div></div>
+</div>
+
+<div class="skill-container">
+  <div class="skills language-GIT"><div class="skills-text">GIT</div></div>
+</div>
+
+<div class="skill-container">
+  <div class="skills databases"><div class="skills-text">SQL</div></div>
+</div>
+<!-- skill section end -->
+
+
+
+<section class="resume-section intro" id="timeline-section">
+  <div class="timeline-container">
+    <h1><div>Experience Timeline</div></h1>
   </div>
-  {% endfor %}
+</section>
+
+
+<section class="timeline">
+  <ol>
+    <li style="width: 0rem" id=>
+      <div class="odd">
+        <p class="heading">
+          <img class="logo" src="/public/assets/Cerner.png">
+          Software Developer
+        </p>
+        <p class="company-name">Cerner Corporation</p>
+        <p class="timeline-date">July 2017 - Present</p>
+        <p class="timeline-content">
+          <ol>
+            <li> Designed and Developed an mobile and Desktop version of Medication Administrative Record and Nurse Medication Preparation Project using React, D3, Ruby and Java, which is used worldwide. </li>
+            <li> Open source contributions to Carbon and Terra a Graphing library and Easy to Use React library </li>
+          </ol>
+        </p>
+      </div>
+    </li>
+  </ol>
+
+  <div class="arrows">
+    <button class="arrow arrow__prev disabled" disabled>
+      <i class="fas fa-arrow-circle-left fa-5x"></i>
+    </button>
+    <button class="arrow arrow__next disabled">
+      <i class="fas fa-arrow-circle-right fa-5x"></i>
+    </button>
+  </div>
+</section>
+
+
+<!-- Begin Project Section -->
+<div class="projects" id="projects-section">
+    <section class="resume-section"><h1><div>Projects</div></h1></section>
+    <div class="left">
+https://github.com/Dinesh94Singh/CodingScales
+        <!-- Coding Scales -->
+        <div class="card">
+            <a href="https://github.com/Dinesh94Singh/CodingScales" target="_blank">
+                <div class="card-image">
+                    <img src="/public/assets/python.png"
+                    alt="Orange" />
+                </div>
+            </a>
+            <div class="card-body">
+                <div class="card-title">
+                    <h3>
+                        Basic Scales of Competetive Programming
+                    </h3>
+                    <time>
+                        Aug 2019 - Curr
+                    </time>
+                </div>
+                <div class="card-exceprt">
+                    <p>
+                        A guide to solve few of the Competetive programming problems found online.
+                    </p>
+                </div>
+                <a class="btn" href="https://github.com/Dinesh94Singh/GoBackN_SR_ARQ" target="_blank">Github</a>
+            </div>
+        </div>
+        <!-- Portfolio Website  -->
+        <div class="card">
+            <a href="http://Dinesh94Singh.github.io/" target="_blank">
+                <div class="card-image">
+                    <img src="public/assets/profile.png"
+                    alt="Orange" />
+                </div>
+            </a>
+            <div class="card-body">
+                <div class="card-title">
+                    <h3>
+                        Portfolio Website
+                    </h3>
+                    <time>
+                        Jul 2018
+                    </time>
+                </div>
+                <div class="card-exceprt">
+                    <p>
+                        Created a personal portfolio website on Github pages. The Website is built on top of Hyde which is 2 column Jekyll theme.
+                        The Website is built entirely using HTML, CSS, and Javascript.
+                </div>
+                <a class="btn" href="http://Dinesh94Singh.github.io/" target="_blank">Github</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        <!-- Go back N and SR simulation -->
+        <div class="card">
+            <a href="https://github.com/Dinesh94Singh/GoBackN_SR_ARQ" target="_blank">
+                <div class="card-image">
+                    <img src="/public/assets/gobackN-sr.png"
+                    alt="Orange" />
+                </div>
+            </a>
+            <div class="card-body">
+                <div class="card-title">
+                    <h3>
+                        Go Back N and Selective Repeat Computer Networks Simulations
+                    </h3>
+                    <time>
+                        Aug 2017 - Dec 2017
+                    </time>
+                </div>
+                <div class="card-exceprt">
+                    <p>
+                        A fun simulation of how Go back N and Selective Repeat algorithms work which is the basic essense of data flowing across the internet and how loss of packets could affect the delivery of the content
+                    </p>
+                </div>
+                <a class="btn" href="https://github.com/Dinesh94Singh/GoBackN_SR_ARQ" target="_blank">Github</a>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+</body>
+<script type="text/javascript" src="{{ '/' | relative_url  }}public/js/custom.js"></script>
+</html>

@@ -1,26 +1,28 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title:            Dinesh Singh
+tagline:          'My Profile'
+url:              https://dinesh94singh.github.io/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Dinesh Singh'
+  url:            https://www.linkedin.com/in/dinesh-singh-6183a162/
+  gravatar_md5:   2208002d2efae6ba2be8eff453c5b7f9
+  github:         Dinesh94Singh
+  linkedin:       Dinesh Singh
+  facebook:       Dinesh Singh
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
